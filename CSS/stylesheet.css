@@ -11,12 +11,14 @@ div {
   max-width: 1344px;
   min-width: 500px;
   width: 100%;
-  box-shadow: 10px 10px 20px lightblue;
   border-radius: 10px;
 }
 .header {
   align-items: center;
   justify-content: flex-start;
+  width: 100%;
+  box-shadow: 10px 10px 20px lightblue;
+  border-radius: 10px;
 }
 .headerLogo {
   width: 150px;
