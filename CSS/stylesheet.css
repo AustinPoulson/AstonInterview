@@ -18,6 +18,18 @@ body {
 div {
   display: flex;
 }
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+  color: #ff8d40;
+  margin: 0px;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .content {
   background-color: #e6e6e6;
   width: 100%;
@@ -59,6 +71,7 @@ div {
   background-color: #e5e5e5;
   border: 1px solid #999999;
   border-radius: 3px;
+  cursor: pointer;
 }
 .contentBody {
   background-color: #000000;
@@ -72,10 +85,51 @@ div {
   background-color: #ffffff;
   border-radius: 25px;
   padding: 15px;
+  flex-direction: column;
 }
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 4px;
-  color: #ff8d40;
+.productsSectionHeader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.productList {
+  align-items: center;
+  margin-left: 30px;
+}
+.product {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 23px;
+}
+.productHeader {
   margin: 0px;
+  margin-bottom: 10px;
+}
+.productContent {
+  height: 380px;
+  width: 260px;
+  background-color: #ff8d40;
+  border-radius: 15px;
+  padding: 30px;
+  flex-direction: column;
+}
+.productText {
+  color: #ffffff;
+  margin: 0px;
+  font-size: larger;
+}
+.lineBreak {
+  height: 2px;
+  width: 100%;
+  background-color: #b8642c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.productInfoLine {
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.infoBlock {
+  width: 100px;
 }
